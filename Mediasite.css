@@ -1,3 +1,15 @@
+/* ==UserStyle==
+@name         Modern Mediasite
+@description  Mediasite less-uglier-making stylesheet
+@namespace    github.com/Pwuts/modern-mediasite
+@homepageURL  https://github.com/Pwuts/modern-mediasite
+@supportURL   https://github.com/Pwuts/modern-mediasite/issues
+@updateURL    https://raw.githubusercontent.com/Pwuts/modern-mediasite/master/Mediasite.css
+@author       Pwuts <pwuts@pwuts.nl> (https://github.com/Pwuts)
+@version      1.0.0
+@license      MIT
+==/UserStyle== */
+
 .controlBar {
     background: hsl(0, 0%, 10%);
     --highlight-background-color: hsl(0, 0%, 16%);
