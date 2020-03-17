@@ -6,7 +6,7 @@
 @supportURL   https://github.com/Pwuts/modern-mediasite/issues
 @updateURL    https://raw.githubusercontent.com/Pwuts/modern-mediasite/master/Mediasite.user.css
 @author       Pwuts <pwuts@pwuts.nl> (https://github.com/Pwuts)
-@version      1.0.0
+@version      1.0.1
 @license      MIT
 ==/UserStyle== */
 
@@ -14,8 +14,8 @@
     .controlBar {
         background: hsl(0, 0%, 10%);
         --highlight-background-color: hsl(0, 0%, 16%);
-        --button-foreground-color: hsl(0, 0%, 75%);
-        --button-hover-blur-color: hsl(0, 0%, 70%);
+        --button-foreground-color: hsl(0, 0%, 82%);
+        --button-hover-blur-color: hsl(0, 0%, 75%);
     }
 
     /* play/pause/stop/replay button */
@@ -71,17 +71,17 @@
         border-radius: 3px;
     }
     .ui-button.rate:hover .ui-blur-image {  /* fix hover background with border box */
-        box-shadow: 0 0 4px var(--button-hover-blur-color);
+        box-shadow: 0 0 6px var(--button-hover-blur-color);
     }
 
     /* hover background blur opacities */
     .ui-blur-background .background {
-        display: none;
+        display: none !important;
     }
     .ui-blur-background:hover .foreground {
-        -webkit-filter: drop-shadow(0 0 2px var(--button-hover-blur-color));
+        -webkit-filter: drop-shadow(0 0 6px var(--button-hover-blur-color));
     /*    -webkit-filter: drop-shadow(0 0 2px 1px #BBB); */
-        filter: drop-shadow(0 0 2px var(--button-hover-blur-color));
+        filter: drop-shadow(0 0 6px var(--button-hover-blur-color));
     }
 
     /* play progress bar */
