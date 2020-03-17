@@ -6,11 +6,13 @@
 @supportURL   https://github.com/Pwuts/modern-mediasite/issues
 @updateURL    https://raw.githubusercontent.com/Pwuts/modern-mediasite/master/Mediasite.user.css
 @author       Pwuts <pwuts@pwuts.nl> (https://github.com/Pwuts)
-@version      1.0.1
+@version      1.0.2
 @license      MIT
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://collegerama.tudelft.nl/Mediasite/") {
+@-moz-document url-prefix("https://collegerama.tudelft.nl/Mediasite/"),
+               url-prefix("https://weblectures.leidenuniv.nl/Mediasite/Play/")
+    {
     .controlBar {
         background: hsl(0, 0%, 10%);
         --highlight-background-color: hsl(0, 0%, 16%);
