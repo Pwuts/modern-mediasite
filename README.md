@@ -2,7 +2,7 @@
 Mediasite is ugly. I made this stylesheet to de-uglify it a bit.
 
 With this stylesheet:
-![screenshot of the Mediasite with the stylesheet applied](https://puu.sh/FlJhq/d728ca1b92.png)
+![screenshot of the Mediasite with the stylesheet applied](https://puu.sh/FmC5l/3dd3275155.png)
 
 To use this stylesheet, get [Stylus](https://github.com/openstyles/stylus/blob/master/README.md#Releases), then click the button:
 
@@ -15,4 +15,4 @@ Currently, it works for the following Mediasites:
 If this stylesheet works for your mediasite but it is not in the list, please open an issue or make a PR to fix it.
 
 It should work if your mediasite looks something like this:
-![screenshot of Mediasite with its original styling](https://puu.sh/FlJgG/ca31b67315.png)
+![screenshot of Mediasite with its original styling](https://puu.sh/FmC4M/3d09e35b74.png)
