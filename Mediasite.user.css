@@ -6,13 +6,23 @@
 @supportURL   https://github.com/Pwuts/modern-mediasite/issues
 @updateURL    https://raw.githubusercontent.com/Pwuts/modern-mediasite/master/Mediasite.user.css
 @author       Pwuts <pwuts@pwuts.nl> (https://github.com/Pwuts)
-@version      1.0.2
+@version      1.1.0
 @license      MIT
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://collegerama.tudelft.nl/Mediasite/"),
                url-prefix("https://weblectures.leidenuniv.nl/Mediasite/Play/")
-    {
+{
+    /* video frame borders */
+    .contentArea .stream {
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .contentArea .stream .framer {
+        border: 2px solid #CCC;
+        border-radius: 8px;
+    }
+
     .controlBar {
         background: hsl(0, 0%, 10%);
         --highlight-background-color: hsl(0, 0%, 16%);
@@ -33,8 +43,23 @@
         margin: 10px 15px;
     }
 
+    .controlBar .playbackInfo .playerState {
+        user-select: none;
+    }
+
     .controlBar .alwaysControls {
         margin-left: 10px;
+    }
+
+    /* volume control */
+    .volumeControls .slider {
+        height: 4px;
+        margin-top: 12px;
+    }
+    .volumeControls .thumb {
+        width: 10px;
+        height: 10px;
+        margin-left: -5px;
     }
 
     /* "more" button on the right */
@@ -116,17 +141,6 @@
     }
     .position-bar-root .slider::-ms-thumb {
         background: #57a93f; /* Green for DVR */
-    }
-
-    /* volume control */
-    .volumeControls .slider {
-        height: 4px;
-        margin-top: 12px;
-    }
-    .volumeControls .thumb {
-        width: 10px;
-        height: 10px;
-        margin-left: -5px;
     }
     .volumeControls .slider .track:before,
     .volumeControls .slider .toucharea:before,
